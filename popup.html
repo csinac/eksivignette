@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eksi Vignette Silici</title>
+  <style>
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-align: center;
+      padding: 10px;
+      background-color: #2d2d2d;
+      width: 200px;
+    }
+
+    textarea {
+      width: 90%;
+      height: 50px;
+      padding: 5px;
+      margin: 10px 0;
+      border: 1px solid #494949;
+      border-radius: 2px;
+      resize: none;
+      color: white;
+      background-color: #474747;
+      font-size: 14px;
+    }
+
+    button {
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: 'Source Sans Pro', sans-serif;
+      width: auto;
+      padding: 8px 8px;
+      border: 1px solid #494949;
+      background-color: #202020;
+      color: #fff;
+    }
+
+
+    button.remove {
+      border: 1px solid #5c8e31;
+      background-color: #81C14B;
+      color: white;
+    }
+    button.remove:hover {
+      background-color: #5c8e31;
+    }
+
+    button.reset {
+      background-color: #f44336;
+      margin-bottom: 20px;
+    }
+
+    button.reset:hover {
+      background-color: #e53935;
+    }
+
+
+    #title {
+      font-size: 1.4em;
+      color: #bdbdbd;
+    }
+  </style>
+</head>
+<body>
+  <p id="title"><b>Eksi Vignette Silici</b></p>
+  <textarea id="idList" placeholder="Silinecek elemanlarin baslangiclari (virgul ile ayrilmis)"></textarea>
+  <button id="resetButton" class="reset">Sifirla</button>
+  <br/>
+  <button id="removeButton" class="remove">Sozlugu kullanabileyim lutfen</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
